@@ -1,0 +1,127 @@
+.hero__destination-section{
+    padding-bottom: 118px;
+}
+.hero {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.hero__wrap {
+    margin-left: 110px;
+}
+.hero__wrap-inner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 64px;
+}
+.hero__wrap-bold {
+    margin-right: 25px;
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4.725px;
+    opacity: 0.25;
+}
+.hero__wrap-text {
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+}
+.hero__demo {
+    width: 533px;
+}
+.hero__demo-list {
+    margin-bottom: 37px;
+    display: flex;
+    align-items: center;
+}
+.hero__demo-item + .hero__demo-item{
+    margin-left: 36px;
+}
+.hero__demo-link {
+    padding-bottom: 15px;
+    color: #D0D6F9;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.7px;
+    position: relative;
+}
+.hero__demo-link::before{
+    content: " ";
+    width: 0;
+    height: 3px;
+    background-color: #fff;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+.hero__demo-link:hover::before{
+    width: 100%;
+}
+.hero__demo-link:active::before{
+    width: 100%;
+    opacity: 0.5021;
+}
+.hero__demo-title {
+    color: #FFF;
+    font-family: Bellefair , serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.hero__demo-text {
+    margin-bottom: 28px;
+    padding-bottom: 54px;
+    color: #D0D6F9;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 2.7px;
+    position: relative;
+}
+.hero__demo-text::after{
+    content: " ";
+    width: 100%;
+    height: 2px;
+    background-color: #383B4B;
+    left: 0;
+    // top: 0;
+    bottom: 0;
+    position: absolute;
+}
+.hero__box {
+    display: flex;
+    align-items: center;
+}
+.hero__box-list {
+    margin-right: 80px;
+}
+.hero__box-item1 {
+    margin-bottom: 12px;
+    color: #D0D6F9;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.362px;
+    text-transform: uppercase;
+}
+.hero__box-item2 { 
+    color: #FFF;
+    font-family: Bellefair , serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
